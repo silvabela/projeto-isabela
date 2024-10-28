@@ -1,4 +1,4 @@
-/* Reset básico para remover margens e paddings padrões */
+* Reset básico para remover margens e paddings padrões */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #2e63c6;  
+    background-color:#4CAF50;
     color: #fff;  
     padding: 10px 0;  
     text-align: center; 
@@ -47,14 +47,14 @@ nav {
 }
 
 .menu a:hover {
-    background-color: #2e63c6;  /* Muda a cor de fundo ao passar o mouse */
+    background-color:#4CAF50;  /* Muda a cor de fundo ao passar o mouse */
 }
 
 /* Dropdown */
 .dropdown-content {
     display: none;  /* Esconde o conteúdo do dropdown */
     position: absolute;  /* Define o posicionamento absoluto */
-    background-color: #2e63c6;  /* Define a cor de fundo do dropdown */
+    background-color:#4CAF50;  /* Define a cor de fundo do dropdown */
     min-width: 160px;  /* Define a largura mínima do dropdown */
     z-index: 1;  /* Garante que o dropdown fique acima de outros elementos */
 }
@@ -68,7 +68,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-    background-color: #2e63c6;  /* Muda a cor de fundo ao passar o mouse nos links do dropdown */
+    background-color: #4CAF50;  /* Muda a cor de fundo ao passar o mouse nos links do dropdown */
 }
 
 .dropdown:hover .dropdown-content {
@@ -88,7 +88,7 @@ main {
 
 /* Rodapé */
 footer {
-    background-color: #2e63c6;  /* Define a cor de fundo do rodapé */
+    background-color:#4CAF50; /* Define a cor de fundo do rodapé */
     color: #fff;  /* Define a cor do texto no rodapé */
     text-align: center;  /* Centraliza o texto */
     padding: 10px 0;  /* Define o espaçamento interno do rodapé */
